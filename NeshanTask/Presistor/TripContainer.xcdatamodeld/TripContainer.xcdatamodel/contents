@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="23C71" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="ContactEntity" representedClassName=".ContactEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="familyName" optional="YES" attributeType="String"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="identifier" optional="YES" attributeType="String"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="LocationDetailEntity" representedClassName="LocationDetailEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="country" optional="YES" attributeType="String"/>
+        <attribute name="district" optional="YES" attributeType="String"/>
+        <attribute name="formattedAddress" optional="YES" attributeType="String"/>
+        <attribute name="inOddEvenZone" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="inTrafficZone" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="municipalityZone" optional="YES" attributeType="String"/>
+        <attribute name="neighbourhood" optional="YES" attributeType="String"/>
+        <attribute name="place" optional="YES" attributeType="String"/>
+        <attribute name="routeName" optional="YES" attributeType="String"/>
+        <attribute name="routeType" optional="YES" attributeType="String"/>
+        <attribute name="state" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="village" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TripEntity" representedClassName="TripEntity" syncable="YES" codeGenerationType="class">
+        <relationship name="contacts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ContactEntity"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LocationDetailEntity"/>
+    </entity>
+</model>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "265B597C-B727-44D0-8239-ACDB29931E5C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B966B10-8322-4975-9FE9-46648E8A240B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NeshanTask/Core/Explore/View/BottomSheetViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "presentBottomSheet(viewController:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9B966B10-8322-4975-9FE9-46648E8A240B - f3eb5e5be0117d2e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.presentBottomSheet(viewController: NeshanTask.BottomSheetViewController) -&gt; ()"
+                  moduleName = "NeshanTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/armanzohourian/Documents/TripSavior/NeshanTask/Core/Explore/View/BottomSheetViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "9B966B10-8322-4975-9FE9-46648E8A240B - f3eb5e5be0117d0f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.presentBottomSheet(viewController: NeshanTask.BottomSheetViewController) -&gt; ()"
+                  moduleName = "NeshanTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/armanzohourian/Documents/TripSavior/NeshanTask/Core/Explore/View/BottomSheetViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "199"
+                  endingLineNumber = "199"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "067A3C36-1804-4366-95B0-8A635C832FC5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NeshanTask/Components/AddContactCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "handleTapGesture(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FAEA2395-2AB0-431D-BF77-EA21DC5135EC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NeshanTask/Core/Explore/View/BottomSheet/BottomSheetView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FBA4022-12D9-4696-8408-F145555D3B60"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NeshanTask/Core/Explore/ViewModel/ExploreViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "fetchContacts()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06B9A5D9-283E-4DF7-A3C5-A841F14FE756"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NeshanTask/Core/Explore/ViewModel/ExploreViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "fetchContacts()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

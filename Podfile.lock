@@ -1,0 +1,16 @@
+PODS:
+  - NeshanMobileSDK (0.9.5.1)
+
+DEPENDENCIES:
+  - NeshanMobileSDK (~> 0.9.5)
+
+SPEC REPOS:
+  trunk:
+    - NeshanMobileSDK
+
+SPEC CHECKSUMS:
+  NeshanMobileSDK: 6b7b57c0de74c6e14d97cd4b3fc7e70e1012e9d0
+
+PODFILE CHECKSUM: 1d4075932ae0b620bf1875db9c7cf5ce44af854d
+
+COCOAPODS: 1.14.3
